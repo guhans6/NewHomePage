@@ -138,8 +138,11 @@ class SegmentedStackView: UIStackView {
     }
     
     private func setup() {
+        backgroundColor = .systemGray5
+        
         axis = .horizontal
         distribution = .fillEqually
+        layer.cornerRadius = 12
         alignment = .fill
         spacing = 3
         
